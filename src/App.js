@@ -1,11 +1,11 @@
 import './App.css';
 
-import NavBar from './component/NavBar'
-import Carousel from './component/Carousel'
-import GenreList from './component/GenreList'
-import NewsList from './component/NewsList'
-import HotNews from './component/HotNews'
-import NewsSource from './component/NewsSource'
+import NavBar from './Component/NavBar'
+import Carousel from './Component/Carousel'
+import GenreList from './Component/GenreList'
+import NewsList from './Component/NewsList'
+import HotNews from './Component/HotNews'
+import NewsSource from './Component/NewsSource'
 
 // import {
 //   Divider
