@@ -6,21 +6,18 @@ import GenreList from './Component/GenreList'
 import NewsList from './Component/NewsList'
 import HotNews from './Component/HotNews'
 import NewsSource from './Component/NewsSource'
-
-// import {
-//   Divider
-// } from '@material-ui/core'
+import Footer from './Component/Footer'
 
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <Carousel></Carousel>
-      {/* <Divider /> */}
+      <Carousel></Carousel>      
       <GenreList></GenreList>
       <NewsList></NewsList>      
       <HotNews></HotNews>
       <NewsSource></NewsSource>
+      <Footer></Footer>
     </div>
   );
 }
