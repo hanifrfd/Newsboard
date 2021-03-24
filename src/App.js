@@ -7,16 +7,11 @@ import NewsList from './Component/NewsList'
 import HotNews from './Component/HotNews'
 import NewsSource from './Component/NewsSource'
 
-// import {
-//   Divider
-// } from '@material-ui/core'
-
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <Carousel></Carousel>
-      {/* <Divider /> */}
+      <Carousel></Carousel>      
       <GenreList></GenreList>
       <NewsList></NewsList>      
       <HotNews></HotNews>
