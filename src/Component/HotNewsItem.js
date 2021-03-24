@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    Grid, Typography, Divider
+    Typography,
 }   from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +30,7 @@ export default function HotNewsItem(props) {
     const { backgroundImage } = props
     return (
         <div className={classes.root}>
-            <img src={ backgroundImage } className={classes.img}></img>
+            <img src={ backgroundImage } className={classes.img} alt="hot news" />
             <Typography variant="body2" className={classes.title}>
                 India will reportedly introduce bill to make owning cryptocurrency...            
             </Typography>
