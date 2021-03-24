@@ -1,0 +1,47 @@
+.category-list{
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.category-list::-webkit-scrollbar {
+    display: none;
+  }
+
+.category-item {    
+    border-radius: 50px;
+    padding: 8px 24px 8px 24px;        
+    background: white;
+    border: 1px solid rgba(41, 179, 209, 0.5);    
+    color: rgba(41, 179, 209, 0.5);
+    margin-right: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.category-item:hover{
+    background: #29B3D1;
+    border: 1px solid;    
+    color: white;    
+}
+
+.active{
+    background: #29B3D1;
+    border: 1px solid;    
+    color: white;
+}
+
+.filter{
+    border-left: 1px solid rgba(97, 97, 97, 0.1);
+    color: #C4C4C4;        
+    margin-left: 16px;
+}
+
+.filter > img {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.toolbar{
+    padding-bottom: 30px;
+}
