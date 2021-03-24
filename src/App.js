@@ -6,6 +6,7 @@ import GenreList from './Component/GenreList'
 import NewsList from './Component/NewsList'
 import HotNews from './Component/HotNews'
 import NewsSource from './Component/NewsSource'
+import Footer from './Component/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <NewsList></NewsList>      
       <HotNews></HotNews>
       <NewsSource></NewsSource>
+      <Footer></Footer>
     </div>
   );
 }
