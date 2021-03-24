@@ -24,7 +24,7 @@ export default function GenreList() {
                     {
                         genres.map( genres =>
                             <Grid item>
-                                <Typography variant="body1">
+                                <Typography variant="body1" key={genres}>
                                     {genres}
                                 </Typography>
                             </Grid>

@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    Grid, Typography, Divider
+    Grid, Typography
 }   from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
